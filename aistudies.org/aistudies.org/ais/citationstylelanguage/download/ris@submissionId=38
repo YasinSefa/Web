@@ -1,0 +1,16 @@
+TY - JOUR
+AU - Anas HARB
+AU - Hakan TERZİOĞLU
+AU - Akif DURDU
+PY - 2020/06/29
+Y2 - 2022/01/22
+TI - Intelligent Traffic Signaling Control Using Petri Nets
+JF - Artificial Intelligence Studies
+JA - AIS
+VL - 3
+IS - 1
+SE - Articles
+DO - 10.30855/AIS.2020.03.01.01
+UR - https://aistudies.org/index.php/ais/article/view/38
+AB - Transportation vehicles refer to the vehicles used to transport people's needs and goods from one area to another. Intelligent traffic signalling systems are needed due to the increase in the number of vehicles in traffic, the roads used, the insufficiency of the surrounding areas and the inability to widen these roads or construct upper / lower roads. Nowadays, there are situations where traffic control is insufficient in current density due to the traffic system mechanisms being dependent on fixed time. Therefore, some smart methods have been developed to prevent waste of time and economic problems. In this study, application of Petri Nets (PA) based on real data collected at certain times of the day for intelligent control of traffic lights at a four-way intersection. PA's performances have been compared with their classical (fixed time) performances. When the results obtained were evaluated in terms of both the number of passing vehicles and time, it was seen that the PA passed 849 vehicles in 755 seconds, 341 vehicles in 920 seconds in the classical method and a better result was obtained with PA.
+ER -

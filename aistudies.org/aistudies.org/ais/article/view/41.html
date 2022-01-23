@@ -1,0 +1,555 @@
+
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Detection Of Covid-19 From Chest X-ray Images Using Deep Learning Techniques
+							| Artificial Intelligence Studies
+			</title>
+
+	
+<link rel="icon" href="https://aistudies.org/public/journals/1/favicon_en_US.png">
+<meta name="generator" content="Open Journal Systems 3.1.1.2">
+<meta name="gs_meta_revision" content="1.1"/>
+<meta name="citation_journal_title" content="Artificial Intelligence Studies"/>
+<meta name="citation_journal_abbrev" content="1"/>
+<meta name="citation_issn" content="2651-5350"/> 
+<meta name="citation_author" content="Ahmet KORKMAZ"/>
+<meta name="citation_author_institution" content="Karabük Üniversitesi Lisansüstü Eğitim Enstiüsü Bilgisayar Mühendisliği Ana Bilim Dalı, KARABÜK, TÜRKİYE"/>
+<meta name="citation_author" content="Ümit ATİLA"/>
+<meta name="citation_author_institution" content="Gazi Üniversitesi Mühendislik Fakültesi Bilgisayar Mühendisliği Bölümü, ANKARA, TÜRKİYE"/>
+<meta name="citation_title" content="Derin Öğrenme Teknikleriyle Akciğer Röntgeninden Covid-19 Tespiti"/>
+<meta name="citation_date" content="2021/06/29"/>
+<meta name="citation_volume" content="4"/>
+<meta name="citation_issue" content="1"/>
+<meta name="citation_firstpage" content="1"/>
+<meta name="citation_lastpage" content="13"/>
+<meta name="citation_doi" content="10.30855/AIS.2021.04.01.01"/>
+<meta name="citation_abstract_html_url" content="https://aistudies.org/index.php/ais/article/view/41"/>
+<meta name="citation_keywords" xml:lang="en" content="Covid-19"/>
+<meta name="citation_keywords" xml:lang="en" content="chest x-ray"/>
+<meta name="citation_keywords" xml:lang="en" content="pneumonia"/>
+<meta name="citation_keywords" xml:lang="en" content="image processing"/>
+<meta name="citation_keywords" xml:lang="en" content="deep learning"/>
+<meta name="citation_pdf_url" content="https://aistudies.org/index.php/ais/article/download/41/18"/>
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.Creator.PersonalName" content="Ahmet KORKMAZ"/>
+<meta name="DC.Creator.PersonalName" content="Ümit ATİLA"/>
+<meta name="DC.Date.created" scheme="ISO8601" content="2021-06-29"/>
+<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2021-06-29"/>
+<meta name="DC.Date.issued" scheme="ISO8601" content="2021-06-29"/>
+<meta name="DC.Date.modified" scheme="ISO8601" content="2021-06-29"/>
+<meta name="DC.Description" xml:lang="en" content="Covid -19 disease, which has been detected in Wuhan, China in December 2019, has affected the whole world in a very short time. Since the disease has fatal consequences and there is currently no known cure, it is vital that people who are sick are identified and quarantined early to prevent its spread. Today, PCR tests are used as the main diagnostic kit for the detection of the virus. However, according to different research results, it shows that the PCR test may be negative in the early and late stages of the disease and that chest X-ray can be used in the diagnosis of the disease as an alternative to the PCR test. Researchers have found that patients with symptoms of Covid -19 have some visual signs in their lungs similar to ground glass opacities. With the development of deep learning techniques and computer equipment, deep learning, which is used in many areas of medicine, can also be used in the diagnosis of Covid -19. The aim of this study is to detect Covid -19-induced lung infection or pneumonia with a different cause from chest X-ray using deep learning techniques. Chest X-rays taken from Covid-19 and Pneumonia patients and healthy individuals were used as data set in the study. There are a total of 3000 picture files, 1000 of each, in three different classes. The model obtained at the end of the training can classify with an average accuracy of 97%."/>
+<meta name="DC.Description" xml:lang="tr" content="2019 yılı aralık ayında Çin’in Wuhan kentinde ortaya çıktığı tespit edilen Covid-19 hastalığı çok kısa bir süre içinde tüm dünyayı etkisi altına almıştır. Hastalığın ölümcül sonuçları olduğu ve halen bilinen bir tedavisi olmadığı için yayılmasının önlenmesi amacıyla hasta olan kişilerin erkenden belirlenmesi ve karantinaya alınması hayati önem taşımaktadır. Günümüzde virüsün tespiti için asıl tanı kiti olarak PCR (Polymerase Chain Reaction) testleri kullanılmaktadır. Ancak farklı araştırma sonuçları, hastalığın erken ve geç dönemlerinde PCR testinin negatif çıkabileceğini ve PCR testine alternatif olarak göğüs röntgeninin de hastalığın teşhisinde kullanılabileceğini göstermiştir. Araştırmacılar, Covid -19 belirtileri olan hastaların akciğerlerinde buzlu cam opasitelerine benzer bazı görsel işaretler olduğunu saptamışlardır. Derin öğrenme teknikleri ve bilgisayar donanımlarının her geçen gün daha da gelişmesiyle tıbbın birçok alanında kullanılan derin öğrenme, Covid -19 hastalığının teşhisinde de kullanılabilir. Bu çalışmanın amacı derin öğrenme teknikleri kullanarak göğüs röntgeninden Covid -19 kaynaklı akciğer enfeksiyonu veya farklı bir sebeple var olan pnömani tespiti yapabilmektir. Çalışmada veri seti olarak Covid-19 ve Pnömani (zatürre) hastaları ile sağlıklı bireylerden alınan göğüs röntgenleri kullanılmıştır. Üç faklı sınıfta her birinden 1000’er adet olmak üzere toplam 3000 adet resim dosyası bulunmaktadır. Eğitimin sonunda elde edilen model ortalama %97 doğrulukla sınıflandırma yapabilmektedir."/>
+<meta name="DC.Format" scheme="IMT" content="application/pdf"/>
+<meta name="DC.Identifier" content="41"/>
+<meta name="DC.Identifier.pageNumber" content="1-13"/>
+<meta name="DC.Identifier.DOI" content="10.30855/AIS.2021.04.01.01"/>
+<meta name="DC.Identifier.URI" content="https://aistudies.org/index.php/ais/article/view/41"/>
+<meta name="DC.Language" scheme="ISO639-1" content="tr"/>
+<meta name="DC.Rights" content="Copyright (c) 2021 Yapay Zeka Uygulamaları"/>
+<meta name="DC.Rights" content="http://creativecommons.org/licenses/by-nc/4.0"/>
+<meta name="DC.Source" content="Artificial Intelligence Studies"/>
+<meta name="DC.Source.ISSN" content="2651-5350"/>
+<meta name="DC.Source.Issue" content="1"/>
+<meta name="DC.Source.Volume" content="4"/>
+<meta name="DC.Source.URI" content="https://aistudies.org/index.php/ais"/>
+<meta name="DC.Subject" xml:lang="en" content="Covid-19"/>
+<meta name="DC.Subject" xml:lang="en" content="chest x-ray"/>
+<meta name="DC.Subject" xml:lang="en" content="pneumonia"/>
+<meta name="DC.Subject" xml:lang="en" content="image processing"/>
+<meta name="DC.Subject" xml:lang="en" content="deep learning"/>
+<meta name="DC.Title" content="Derin Öğrenme Teknikleriyle Akciğer Röntgeninden Covid-19 Tespiti"/>
+<meta name="DC.Title.Alternative" xml:lang="en" content="Detection Of Covid-19 From Chest X-ray Images Using Deep Learning Techniques"/>
+<meta name="DC.Type" content="Text.Serial.Journal"/>
+<meta name="DC.Type.articleType" content="Articles"/>
+	<link rel="stylesheet" href="../../$$$call$$$/page/page/css@name=stylesheet.css" type="text/css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i" type="text/css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
+</head><body class="pkp_page_article pkp_op_view has_site_logo" dir="ltr">
+
+	<div class="cmp_skip_to_content">
+		<a href="41.html#pkp_content_main">Skip to main content</a>
+		<a href="41.html#pkp_content_nav">Skip to main navigation menu</a>
+		<a href="41.html#pkp_content_footer">Skip to site footer</a>
+	</div>
+	<div class="pkp_structure_page">
+
+				<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
+			<div class="pkp_head_wrapper">
+
+				<div class="pkp_site_name_wrapper">
+																<div class="pkp_site_name">
+																		
+																			<a href="../../../index.html" class="is_img">
+								<img src="../../../journals/1/pageHeaderLogoImage_en_US.png" width="1028" height="80" alt="Page Header Logo" />
+							</a>
+																	</div>
+									</div>
+
+													<nav class="pkp_navigation_primary_row" aria-label="Site Navigation">
+						<div class="pkp_navigation_primary_wrapper">
+														
+	<ul id="navigationPrimary" class="pkp_navigation_primary pkp_nav_list">
+								<li class="">
+				<a href="../../issue/current.html">
+					Current
+				</a>
+							</li>
+															<li class="">
+				<a href="../../issue/archive.html">
+					Archives
+				</a>
+							</li>
+								<li class="">
+				<a href="../../about.1.html">
+					About
+				</a>
+									<ul>
+																					<li class="">
+									<a href="../../about.1.html">
+										About the Journal
+									</a>
+								</li>
+																												<li class="">
+									<a href="../../about/editorialTeam.html">
+										Editorial Team
+									</a>
+								</li>
+																												<li class="">
+									<a href="../../about/submissions.html">
+										Submissions
+									</a>
+								</li>
+																		</ul>
+							</li>
+								<li class="">
+				<a href="../../about/contact.html">
+					Contact
+				</a>
+							</li>
+								<li class="">
+				<a href="../../user/register.html">
+					Register
+				</a>
+							</li>
+			</ul>
+
+
+															<form class="pkp_search" action="../../search/search.html" method="post" role="search">
+		<input type="hidden" name="csrfToken" value="83757f504e11e1d15ebc2baa27149f17">
+		<input name="query" value="" type="text" aria-label="Search Query">
+		<button type="submit">
+			Search
+		</button>
+		<div class="search_controls" aria-hidden="true">
+			<a href="../../search/search.html" class="headerSearchPrompt search_prompt" aria-hidden="true">
+				Search
+			</a>
+			<a href="41.html#" class="search_cancel headerSearchCancel" aria-hidden="true"></a>
+			<span class="search_loading" aria-hidden="true"></span>
+		</div>
+</form>
+						</div>
+					</nav>
+								<nav class="pkp_navigation_user_wrapper" id="navigationUserWrapper" aria-label="User Navigation">
+					
+	<ul id="navigationUser" class="pkp_navigation_user pkp_nav_list">
+								<li class="profile">
+				<a href="../../user/register.html">
+					Register
+				</a>
+							</li>
+								<li class="profile">
+				<a href="../../login.html">
+					Login
+				</a>
+							</li>
+										</ul>
+
+				</nav>
+			</div><!-- .pkp_head_wrapper -->
+		</header><!-- .pkp_structure_head -->
+
+						<div class="pkp_structure_content has_sidebar">
+			<div id="pkp_content_main" class="pkp_structure_main" role="main">
+<div class="page page_article">
+			
+<nav class="cmp_breadcrumbs" role="navigation" aria-label="You are here:">
+	<ol>
+		<li>
+			<a href="../../index.html">
+				Home
+			</a>
+			<span class="separator">/</span>
+		</li>
+		<li>
+			<a href="../../issue/archive.html">
+				Archives
+			</a>
+			<span class="separator">/</span>
+		</li>
+		<li>
+			<a href="../../issue/view/7.html">
+				Vol 4 No 1 (2021): June 2021
+			</a>
+			<span class="separator">/</span>
+		</li>
+		<li class="current">
+									Articles
+						</li>
+	</ol>
+</nav>	
+		<article class="obj_article_details">
+	<h1 class="page_title">
+		Detection Of Covid-19 From Chest X-ray Images Using Deep Learning Techniques
+	</h1>
+
+	
+	<div class="row">
+		<div class="main_entry">
+
+							<ul class="item authors">
+											<li>
+							<span class="name">
+								Ahmet KORKMAZ
+							</span>
+															<span class="affiliation">
+									Karabuk University Graduate School of Education Department of Computer Engineering, KARABUK, TURKEY
+								</span>
+																				</li>
+											<li>
+							<span class="name">
+								Ümit ATİLA
+							</span>
+															<span class="affiliation">
+									Gazi University Faculty of Engineering Department of Computer Engineering, ANKARA, TURKEY
+								</span>
+																						<span class="orcid">
+									
+									<a href="https://orcid.org/0000-0002-1576-9977" target="_blank">
+										https://orcid.org/0000-0002-1576-9977
+									</a>
+								</span>
+													</li>
+									</ul>
+			
+																												<div class="item doi">
+						<span class="label">
+														DOI:
+						</span>
+						<span class="value">
+							<a href="https://doi.org/10.30855/AIS.2021.04.01.01">
+								https://doi.org/10.30855/AIS.2021.04.01.01
+							</a>
+						</span>
+					</div>
+							
+									<div class="item keywords">
+				<span class="label">
+										Keywords:
+				</span>
+				<span class="value">
+																		Covid-19, 													chest x-ray, 													pneumonia, 													image processing, 													deep learning															</span>
+			</div>
+			
+										<div class="item abstract">
+					<h3 class="label">Abstract</h3>
+					<p>Covid -19 disease, which has been detected in Wuhan, China in December 2019, has affected the whole world in a very short time. Since the disease has fatal consequences and there is currently no known cure, it is vital that people who are sick are identified and quarantined early to prevent its spread. Today, PCR tests are used as the main diagnostic kit for the detection of the virus. However, according to different research results, it shows that the PCR test may be negative in the early and late stages of the disease and that chest X-ray can be used in the diagnosis of the disease as an alternative to the PCR test. Researchers have found that patients with symptoms of Covid -19 have some visual signs in their lungs similar to ground glass opacities. With the development of deep learning techniques and computer equipment, deep learning, which is used in many areas of medicine, can also be used in the diagnosis of Covid -19. The aim of this study is to detect Covid -19-induced lung infection or pneumonia with a different cause from chest X-ray using deep learning techniques. Chest X-rays taken from Covid-19 and Pneumonia patients and healthy individuals were used as data set in the study. There are a total of 3000 picture files, 1000 of each, in three different classes. The model obtained at the end of the training can classify with an average accuracy of 97%.</p>
+				</div>
+			
+			
+
+																										
+						
+		</div><!-- .main_entry -->
+
+		<div class="entry_details">
+
+										<div class="item cover_image">
+					<div class="sub_item">
+													<a href="../../issue/view/7.html">
+								<img src="../../../journals/1/cover_issue_7_en_US.jpg">
+							</a>
+											</div>
+				</div>
+			
+										<div class="item galleys">
+					<ul class="value galleys_links">
+													<li>
+								
+
+	
+		
+
+<a class="obj_galley_link pdf" href="41/18.html">
+
+		
+	PDF
+
+	</a>							</li>
+											</ul>
+				</div>
+						
+							<div class="item published">
+					<div class="label">
+						Published
+					</div>
+					<div class="value">
+						29-06-2021
+					</div>
+				</div>
+			
+										<div class="item citation">
+					<div class="sub_item citation_display">
+						<div class="label">
+							How to Cite
+						</div>
+						<div class="value">
+							<div id="citationOutput" role="region" aria-live="polite">
+								<div class="csl-bib-body">
+  <div class="csl-entry">KORKMAZ, A., &#38; ATİLA, Ümit. (2021). Detection Of Covid-19 From Chest X-ray Images Using Deep Learning Techniques. <i>Artificial Intelligence Studies</i>, <i>4</i>(1), 1-13. https://doi.org/10.30855/AIS.2021.04.01.01</div>
+</div>
+							</div>
+							<div class="citation_formats">
+								<button class="cmp_button citation_formats_button" aria-controls="cslCitationFormats" aria-expanded="false" data-csl-dropdown="true">
+									More Citation Formats
+								</button>
+								<div id="cslCitationFormats" class="citation_formats_list" aria-hidden="true">
+									<ul class="citation_formats_styles">
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="../../citationstylelanguage/get/acm-sig-proceedings@submissionId=41.html"
+													data-load-citation
+													data-json-href="https://aistudies.org/index.php/ais/citationstylelanguage/get/acm-sig-proceedings?submissionId=41&amp;return=json"
+												>
+													ACM
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="../../citationstylelanguage/get/acs-nano@submissionId=41.html"
+													data-load-citation
+													data-json-href="https://aistudies.org/index.php/ais/citationstylelanguage/get/acs-nano?submissionId=41&amp;return=json"
+												>
+													ACS
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="../../citationstylelanguage/get/apa@submissionId=41.html"
+													data-load-citation
+													data-json-href="https://aistudies.org/index.php/ais/citationstylelanguage/get/apa?submissionId=41&amp;return=json"
+												>
+													APA
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="../../citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas@submissionId=41.html"
+													data-load-citation
+													data-json-href="https://aistudies.org/index.php/ais/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=41&amp;return=json"
+												>
+													ABNT
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="../../citationstylelanguage/get/chicago-author-date@submissionId=41.html"
+													data-load-citation
+													data-json-href="https://aistudies.org/index.php/ais/citationstylelanguage/get/chicago-author-date?submissionId=41&amp;return=json"
+												>
+													Chicago
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="../../citationstylelanguage/get/harvard-cite-them-right@submissionId=41.html"
+													data-load-citation
+													data-json-href="https://aistudies.org/index.php/ais/citationstylelanguage/get/harvard-cite-them-right?submissionId=41&amp;return=json"
+												>
+													Harvard
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="../../citationstylelanguage/get/ieee@submissionId=41.html"
+													data-load-citation
+													data-json-href="https://aistudies.org/index.php/ais/citationstylelanguage/get/ieee?submissionId=41&amp;return=json"
+												>
+													IEEE
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="../../citationstylelanguage/get/modern-language-association@submissionId=41.html"
+													data-load-citation
+													data-json-href="https://aistudies.org/index.php/ais/citationstylelanguage/get/modern-language-association?submissionId=41&amp;return=json"
+												>
+													MLA
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="../../citationstylelanguage/get/turabian-fullnote-bibliography@submissionId=41.html"
+													data-load-citation
+													data-json-href="https://aistudies.org/index.php/ais/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=41&amp;return=json"
+												>
+													Turabian
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="../../citationstylelanguage/get/vancouver@submissionId=41.html"
+													data-load-citation
+													data-json-href="https://aistudies.org/index.php/ais/citationstylelanguage/get/vancouver?submissionId=41&amp;return=json"
+												>
+													Vancouver
+												</a>
+											</li>
+																			</ul>
+																			<div class="label">
+											Download Citation
+										</div>
+										<ul class="citation_formats_styles">
+																							<li>
+													<a href="../../citationstylelanguage/download/ris@submissionId=41">
+														<span class="fa fa-download"></span>
+														Endnote/Zotero/Mendeley (RIS)
+													</a>
+												</li>
+																							<li>
+													<a href="../../citationstylelanguage/download/bibtex@submissionId=41">
+														<span class="fa fa-download"></span>
+														BibTeX
+													</a>
+												</li>
+																					</ul>
+																	</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+						<div class="item issue">
+				<div class="sub_item">
+					<div class="label">
+						Issue
+					</div>
+					<div class="value">
+						<a class="title" href="../../issue/view/7.html">
+							Vol 4 No 1 (2021): June 2021
+						</a>
+					</div>
+				</div>
+
+									<div class="sub_item">
+						<div class="label">
+							Section
+						</div>
+						<div class="value">
+							Articles
+						</div>
+					</div>
+							</div>
+
+															
+										<div class="item copyright">
+																										<p>Copyright (c) 2021 Artificial Intelligence Studies</p>
+														<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
+																<p>Artificial Intelligence Studies (AIS) publishes open access articles under a Creative Commons Attribution 4.0 International License (CC BY). This license permits user to freely share (copy, distribute and transmit) and adapt the contribution including for commercial purposes, as long as the author is properly attributed.</p>
+<p><img style="width: 88px;" src="https://licensebuttons.net/l/by/4.0/88x31.png" alt="88x31.png"></p>
+<p><strong style="font-size: .9em;">&nbsp;</strong><strong>For all licenses mentioned above, authors can retain copyright and all publication rights without restriction.&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p>&nbsp;</p>
+				</div>
+			
+			
+
+		</div><!-- .entry_details -->
+	</div><!-- .row -->
+
+</article>
+	
+
+</div><!-- .page -->
+
+
+	</div><!-- pkp_structure_main -->
+
+				
+					<div class="pkp_structure_sidebar left" role="complementary" aria-label="Sidebar">
+				<div class="pkp_block block_custom" id="customblock-ISSN">
+	<div class="content">
+		<p><strong>ISSN-e:</strong> 2651-5350</p>
+	</div>
+</div><div class="pkp_block block_make_submission">
+	<div class="content">
+		<a class="block_make_submission_link" href="../../about/submissions.html">
+			Make a Submission
+		</a>
+	</div>
+</div><div class="pkp_block block_custom" id="customblock-Indexes_and_Platforms">
+	<div class="content">
+		<h3>Indexes and Platforms</h3>
+<p><a href="https://doi.org/10.30855/AIS"><img style="width: 150px;" src="../../../site/images/root/crossref.jpg" alt="crossref-interkomunika.png"></a> <br> <span style="font-size: 0.9em;"><img style="width: 150px;" src="../../../site/images/root/ORCID_logo.svg.png" alt="1200px-ORCID_logo.svg.png"></span> <br> <a href="https://portal.issn.org/resource/ISSN/2651-5350" target="_blank" rel="noopener"><img style="width: 150px;" src="../../../site/images/root/road.jpg" alt="15578"> </a> <br><a href="https://journals.indexcopernicus.com/search/details?id=63426" target="_blank" rel="noopener"><img style="width: 150px;" src="../../../site/images/root/index_copernicus.png"></a><br> <a href="https://www.rootindexing.com/journal/artificial-intelligence-studies--2/" target="_blank" rel="noopener"><img class="transparent" style="width: 150px;" src="../../../site/images/root/root_index.png"></a> <br> <a href="http://sindexs.org/JournalList.aspx?ID=6784" target="_blank" rel="noopener"><img style="width: 150px;" src="../../../site/images/root/sis.jpg"></a> <br> <a href="http://journalseeker.researchbib.com/view/issn/2651-5350" target="_blank" rel="noopener"><img style="width: 150px;" src="../../../site/images/root/research_bib.png"></a> <br> <a href="http://esjindex.org/search.php?id=3951" target="_blank" rel="noopener"><img style="width: 150px;" src="../../../site/images/root/ESJIndex_logo.png"></a> <br> <img style="width: 150px;" src="../../../site/images/root/googleScholar.png" alt="Google Scholar"></p>
+	</div>
+</div><div class="pkp_block block_information">
+	<span class="title">Information</span>
+	<div class="content">
+		<ul>
+							<li>
+					<a href="../../information/readers.html">
+						For Readers
+					</a>
+				</li>
+										<li>
+					<a href="../../information/authors.html">
+						For Authors
+					</a>
+				</li>
+										<li>
+					<a href="../../information/librarians.html">
+						For Librarians
+					</a>
+				</li>
+					</ul>
+	</div>
+</div>
+
+			</div><!-- pkp_sidebar.left -->
+			</div><!-- pkp_structure_content -->
+
+<div id="pkp_content_footer" class="pkp_structure_footer_wrapper" role="contentinfo">
+
+	<div class="pkp_structure_footer">
+
+					<div class="pkp_footer_content">
+				<p>ISSN-e: 2651-5350</p>
+			</div>
+		
+		<div class="pkp_brand_footer" role="complementary">
+			<a href="../../about/aboutThisPublishingSystem.html">
+				<img alt="About this Publishing System" src="../../../images/ojs_brand.png">
+			</a>
+		</div>
+	</div>
+</div><!-- pkp_structure_footer_wrapper -->
+
+</div><!-- pkp_structure_page -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js" type="text/javascript"></script><script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.js" type="text/javascript"></script><script src="../../../pkp/js/lib/jquery/plugins/jquery.tag-it.js" type="text/javascript"></script><script src="../../../themes/default/js/lib/popper/popper.js" type="text/javascript"></script><script src="../../../themes/default/js/lib/bootstrap/util.js" type="text/javascript"></script><script src="../../../themes/default/js/lib/bootstrap/dropdown.js" type="text/javascript"></script><script src="../../../themes/default/js/main.js" type="text/javascript"></script><script src="../../../generic/citationStyleLanguage/js/articleCitation.js" type="text/javascript"></script>
+
+
+</body>
+</html>

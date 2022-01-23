@@ -1,0 +1,15 @@
+TY - JOUR
+AU - Çağrı Dükünlü
+AU - Mehmet Cuma
+PY - 2021/12/27
+Y2 - 2022/01/22
+TI - A Comparative Analysis with PART,JRIP and OneR Algorithms for Various Datasets
+JF - Artificial Intelligence Studies
+JA - AIS
+VL - 4
+IS - 2
+SE - Articles
+DO - 10.30855/AIS.2021.02.01
+UR - https://aistudies.org/index.php/ais/article/view/43
+AB - Classification is the operation of predicting class of the given data by preparing a model that makes use of data whose categories already predicted. Data mining techniques are regularly used to form a classifier that predicts belonging class of a new data among the previous given classes. This paper intends to provide comparative analysis of the rule based classifiers used in data mining applications. Analyzing the performance of rule based classifiers namely PART, JRIP, OneR.&nbsp;The goal of this paper is to specify the best technique from classification rules techniques under the chosen datasets and also provide a comparison result each classifier. The rule based classifiers applied to diabetes, breast cancer and iris datasets due to the purpose of determining better technique for classification. Comparison results are made with accuracy, precision, sensitivity and confusion matrixes.
+ER -

@@ -1,0 +1,17 @@
+TY - JOUR
+AU - Mehmet ŞİMŞEK
+AU - Oğuzhan YILMAZ
+AU - Asena KAHRİMAN
+AU - Levent SABAH
+PY - 2018/06/30
+Y2 - 2022/01/22
+TI - Detecting Fake Twitter Accounts with using Artificial Neural Networks
+JF - Artificial Intelligence Studies
+JA - AIS
+VL - 1
+IS - 1
+SE - Articles
+DO - 10.30855/AIS.2018.01.01.03
+UR - https://aistudies.org/index.php/ais/article/view/20
+AB - Online Social Networks (OSNs) are great environments for sharing ideas, following news, advertising products etc., and they have been widely using by people. Although these advantages of OSNs, it is difficult to understand whether an account in OSNs really belongs to a person or organization. Through created fake accounts, unwanted content can spread over the social network. Therefore, the identification of fake accounts is an important problem. In this study, we applied Artificial Neural Network (ANN) classifier to this problem and we evaluated performances of different activation functions. According to the experimental results, use of artificial neural networks in detecting fake accounts yielded successful results. The use of various activation functions in different layers on the ANN significantly affects the results. In the literature, other classification methods have been widely used for detecting fake accounts and spammers on OSNs. To the best of our knowledge, there is no detailed study that classifies fake accounts using ANNs with different activation functions.
+ER -

@@ -1,0 +1,15 @@
+TY - JOUR
+AU - Ahmet KORKMAZ
+AU - Ümit ATİLA
+PY - 2021/06/29
+Y2 - 2022/01/22
+TI - Detection Of Covid-19 From Chest X-ray Images Using Deep Learning Techniques
+JF - Artificial Intelligence Studies
+JA - AIS
+VL - 4
+IS - 1
+SE - Articles
+DO - 10.30855/AIS.2021.04.01.01
+UR - https://aistudies.org/index.php/ais/article/view/41
+AB - Covid -19 disease, which has been detected in Wuhan, China in December 2019, has affected the whole world in a very short time. Since the disease has fatal consequences and there is currently no known cure, it is vital that people who are sick are identified and quarantined early to prevent its spread. Today, PCR tests are used as the main diagnostic kit for the detection of the virus. However, according to different research results, it shows that the PCR test may be negative in the early and late stages of the disease and that chest X-ray can be used in the diagnosis of the disease as an alternative to the PCR test. Researchers have found that patients with symptoms of Covid -19 have some visual signs in their lungs similar to ground glass opacities. With the development of deep learning techniques and computer equipment, deep learning, which is used in many areas of medicine, can also be used in the diagnosis of Covid -19. The aim of this study is to detect Covid -19-induced lung infection or pneumonia with a different cause from chest X-ray using deep learning techniques. Chest X-rays taken from Covid-19 and Pneumonia patients and healthy individuals were used as data set in the study. There are a total of 3000 picture files, 1000 of each, in three different classes. The model obtained at the end of the training can classify with an average accuracy of 97%.
+ER -

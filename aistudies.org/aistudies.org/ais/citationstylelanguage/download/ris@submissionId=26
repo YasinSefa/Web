@@ -1,0 +1,15 @@
+TY - JOUR
+AU - Seval VATANSEVER
+AU - Nursal ARICI
+PY - 2019/06/28
+Y2 - 2022/01/22
+TI - Creating The Best Session Plan With Artificial Immune System for Common Exam In Secondary Education Institutions
+JF - Artificial Intelligence Studies
+JA - AIS
+VL - 2
+IS - 1
+SE - Articles
+DO - 10.30855/AIS.2019.02.01.01
+UR - https://aistudies.org/index.php/ais/article/view/26
+AB - The need to apply the exams to a large number of students in a given time period has revealed the problem of exam timetabling problem (ETP). ETPs, has many constraints such as the timing of examinations without overlap in terms of the student and the place of examination, appointing adequate supervisors for examinations, determining test locations and preparing appropriate exam session plans (ESP). The importance of these constraints varies from institution to institution. In common exams performed in secondary education institutions, ESP is crucial since crowed students group enter the exam at the same time. With appropriate ESP, cheating would be prevented. ETP are classified as optimization problem naming NP hard problem due to the multitude of decision variables and complexity of decision structures. For this reason, heuristic methods can be used when classical algorithms are not sufficient for the solution of ETP’s. The aim of this study is to prepare the ESP which ensuring the maximum reliability of the measurement and evaluation process with using artificial immune systems. In this study, successful results were obtained with the proposed algorithm. This algorithm is suitable to prepare the appropriate ESP’s for different student number and classroom structures.
+ER -

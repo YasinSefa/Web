@@ -1,0 +1,15 @@
+TY - JOUR
+AU - Mutlu YAPICI
+AU - Ömer BAY
+PY - 2019/12/26
+Y2 - 2022/01/22
+TI - Genetic Algorithm Based Timetabling Program
+JF - Artificial Intelligence Studies
+JA - AIS
+VL - 2
+IS - 2
+SE - Articles
+DO - 10.30855/AIS.2019.02.02.01
+UR - https://aistudies.org/index.php/ais/article/view/37
+AB - Course Timetabling Problem is concerned with assigning a number of courses and instructors to classrooms by taking the constraints into consideration. Generally, this problem is typically resolved manually; and due to the large variety of constraints, resource limitations and complicated human factors involved, it takes a lot of time and manpower. It is considered as one of the most time-consuming problems faced by universities and colleges today. In this study, we aimed to develop a genetic algorithm-based timetabling software to bring a solution to course timetabling problem, which is a real world problem. This software allows constraints to be entered easily and allows that optimal solutions are found. To find the most suitable solution for optimization, two different solution methods, a full-genetic algorithm and a partial-genetic algorithm, were tested. Test results showed that when we start the full genetic algorithms from randomly generated initial population, it takes quite some time to obtain the appropriate solution. With the partial-genetic algorithm, an optimal solution was achieved much more quickly than the full genetic algorithm.
+ER -

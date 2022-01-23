@@ -1,0 +1,16 @@
+TY - JOUR
+AU - Emre TEKİN
+AU - Fatih SARISOY
+AU - Ali CİĞERCİ
+PY - 2018/12/21
+Y2 - 2022/01/22
+TI - Shuttle Run Analysis with Image Processing
+JF - Artificial Intelligence Studies
+JA - AIS
+VL - 1
+IS - 2
+SE - Articles
+DO - 10.30855/AIS.2018.01.02.01
+UR - https://aistudies.org/index.php/ais/article/view/29
+AB - Increasing auto control systems in the light of today's technological developments, designing unmanned control mechanisms that can meet requirements such as the need for accurate measurement and analysis is the main goal. With the developed software, it was aimed to make time analysis of the athletes with shuttle running in indoor sports halls with the help of a camera and to store these analyses in the computer environment. No solution is available on the current problem. Similarly, there are prospective projects of traffic in the traffic bases and these are based on the work on them. In this thesis study, firstly moving objects in the image are captured, followed by images that match the color filter specified later. As a result of follow-up, the data such as lap times are stored. The end result is that the athlete's data have been successfully measured and stored.
+ER -

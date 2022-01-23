@@ -1,0 +1,14 @@
+TY - JOUR
+AU - Mehmet ÖNDEROĞLU
+PY - 2018/06/30
+Y2 - 2022/01/22
+TI - Expert Systems Approach to Route Selection
+JF - Artificial Intelligence Studies
+JA - AIS
+VL - 1
+IS - 1
+SE - Articles
+DO - 10.30855/AIS.2018.01.01.04
+UR - https://aistudies.org/index.php/ais/article/view/22
+AB - Directing technical teams in which companies in the service industry required to call on a daily basis to customers; is carried out with the help of the route that is generated manually by an employee according to acquired experiences, appointment intervals dedicated to different customers and customers ' requests and priority. The manually route generating may cause some losses (time, financial, manpower, etc) by the virtue of the situations and work load may be missed, the difficulty in determining the costs and priority.In this article, an expert system approach that can revise itself according to operators’cost and customer-oriented approach and&nbsp; can balance the level of customer satisfaction and financial profit has been developed. In this respect, it is aimed to determine the most appropriate route for technical teams based on the priorities determined by the operator, to increase work efficiency during the day, to reduce the costs of accessing and planning work and to keep customer satisfaction at the top level.
+ER -

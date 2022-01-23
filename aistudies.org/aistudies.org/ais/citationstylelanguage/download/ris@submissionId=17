@@ -1,0 +1,16 @@
+TY - JOUR
+AU - Ayhan AYDIN
+AU - Ümit ATİLA
+AU - Serpil AYDIN
+PY - 2018/06/30
+Y2 - 2022/01/22
+TI - Use of ANN in Predicting Life Expectancy: The Case of Turkey
+JF - Artificial Intelligence Studies
+JA - AIS
+VL - 1
+IS - 1
+SE - Articles
+DO - 10.30855/AIS.2018.01.01.01
+UR - https://aistudies.org/index.php/ais/article/view/17
+AB - Life expectancy is a good measure for comparing parameters such as welfare, health level and development of countries. The high value for this indicator can only be achieved by identifying the positive and negative effects of these determinants and by making initiatives in this direction. In our study, we observed life expectancy estimation by using time series models and Artificial Neural Network (ANN) in terms of social, economic and environmental factors, that affect the life expectancy. Comparison of two estimator models performed using data compiled from OECD and WORLDBANK of Turkey between 1960-2016. In the application performed on social sciences data, meaningful indicators were interpreted together with the success of the ANN method. As a result of the study, a number of suggestions and development recommendations are presented in order to increase the life expectancy from birth, which is a decisive criterion for the country's level of prosperity, in a positive way.
+ER -

@@ -1,0 +1,14 @@
+TY - JOUR
+AU - Önder ÖZBEK
+PY - 2018/06/30
+Y2 - 2022/01/22
+TI - A Method on The Translation of The Words Written by Ottoman Alphabet to Turkish Alphabet
+JF - Artificial Intelligence Studies
+JA - AIS
+VL - 1
+IS - 1
+SE - Articles
+DO - 10.30855/AIS.2018.01.01.05
+UR - https://aistudies.org/index.php/ais/article/view/23
+AB - The Ottoman alphabet was used as a writing language in Turkish with Arabic letters. The Turkish alphabet is used as a writing language in Turkish with Latin letters. There are numerous documents written in the Ottoman alphabet in the archives. In this study, the image of the words written in the Ottoman alphabet was converted into editable text by optical character recognition method. In this way the words are translated into text. Later, the characters in these words were made understandable by using their equivalents in the Turkish alphabet. It was tried to increase the accuracy rate by comparing the words translated into Turkish alphabet and the table where Turkish words were found. An algorithm that gives a similarity value is used for the comparison process.
+ER -

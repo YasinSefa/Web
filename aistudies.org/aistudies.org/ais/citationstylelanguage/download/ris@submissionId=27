@@ -1,0 +1,15 @@
+TY - JOUR
+AU - Sultan YILMAZ
+AU - Mehmet Şimşek
+PY - 2019/06/28
+Y2 - 2022/01/22
+TI - Rule-based monitoring system for Internet of Things (IoT) device
+JF - Artificial Intelligence Studies
+JA - AIS
+VL - 2
+IS - 1
+SE - Articles
+DO - 10.30855/AIS.2019.02.01.02
+UR - https://aistudies.org/index.php/ais/article/view/27
+AB - More and more devices are being developed every day to make life easier. Most of these devices can be controlled and remotely monitored by integrating into existing systems or deploying as new systems. With the IoT era, devices will be easier and more secure to communicate. However, monitoring and controlling of large numbers of devices is a problem. For this purpose, there is a need for automated monitoring and controlling software. In this study, a device has been developed for measuring pH, free chlorine and temperature values from a swimming pool and transferring these data to a remote server. Also, rule-based monitoring software for IOT devices has been developed. With the developed software, the rules for the data obtained from the device are defined and warnings can be given according to these rules. Similarly, it may also be possible to fulfill a certain task (e.g. the operation of another device that delivers necessary chemical for pH balancing) as a result of the rules. It is also possible to define rules for data received from different devices with the developed software and to define tasks according to these rules.
+ER -
